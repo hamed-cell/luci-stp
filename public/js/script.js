@@ -3,15 +3,15 @@ const answers = [
     "WSH CEST BON arrete de troll ??",
     "attend t'es sur sur sur sur sur sur ???",
     "t'as besoin de temps pour reflechir je pense?",
-    "c'est parce que je veux que notre enfant s'appelle Eren ?",
-    " C BON le gosse s'appelle pas eren ... maintenant choisi oui",
+    "c'est parce que j'ai payée les 50 sub ?",
+    " C BON j'vais payée les 50sub... maintenant choisi oui",
     "???????? tu veux qu'on en parle ?",
     "non arrete j'vais commencer a croire que tu m'aime pas la ",
     "Ok maintenant c'est blessant!",
     "wsh arrete j'ai dis c'est blessant de fou choisis oui!",
-    "t'es mon bae dans mon quoicoubae",
+    "remi caca ptdr",
     "AHRHEAHEHRHAHRHAHRRH!",
-    "arrete ce que tu fais par pitiée",
+    "arrete ce que tu fais par pitiée..Remi caca ptdr",
     "Ok tsée quoi on va recommencer .."
 ]
 
@@ -64,7 +64,7 @@ no_button.addEventListener('click', () => {
 yes_button.addEventListener('click', () => {
     // change banner gif path
     let banner = document.getElementById('banner');
-    banner.src = "/public/images/IMG_20240210_095624_114.webp";
+    banner.src = "/public/images/";
     refreshBanner();
     // hide buttons div
     let buttons = document.getElementsByClassName('buttons')[0];
